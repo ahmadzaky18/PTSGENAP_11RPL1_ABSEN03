@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grdnt"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit data"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextKode1"
+        android:hint="Kode"
+        android:inputType="number"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextNama1"
+        android:hint="Nama"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextJenis1"
+        android:hint="Jenis"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonMainUpdate"
+            android:text="Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3b97d3"
+            android:textColor="#d9e5f3"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonMaindelete"
+            android:text="Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3b97d3"
+            android:textColor="#d9e5f3"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
